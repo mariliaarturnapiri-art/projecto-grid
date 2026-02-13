@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+body{
+   font-family: Arial, sans-serif; 
+   line-height: 1.6;
+   color:#333;
+   background-color:white;
+}
+
+.header{
+ background: linear-gradient(135deg,#040f3e);
+ color: white;
+
+ text-align: center;
+ margin: 0;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav{
+    background-color:#e0e0e0;
+    width:30%;
+}
+.nav>ul>li>a{
+   color:black;
+   padding: 1rem;
+   border-radius: 5px;
+text-decoration: none;
+}
+.nav ul li{
+    gap: 30px;
+  padding-left: 1;
+}
+.container{
+    max-width: 1200px;
+   
+}
+.hero h1 {
+    font-size:2.5rem ;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight:bolder ;
+
+}
+.hero{
+    font-size: 1.2rem;
+    opacity: 0.9;
+    text-align: justify;
+}
+.cards-container{
+    margin: 15px;
+    padding: 0%;
+
+
+}
+.container-principal{
+     margin: 15px;
+    padding: 0%;
+}
+.cards-container{
+    display: flex;
+    gap: 1rem;
+
+}
+.card{
+    color:white;
+    background-color: rgba(25, 25, 243, 0.567);
+    width:30%;
+   
+}
+.caixa{
+    display: flex;
+ 
+}
+.hero{
+    width: 75%;
+    height: 100vh;
+
+}
+.footer{
+    display: flex;
+    height: 35px;
+    background-color: #040f3e;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
